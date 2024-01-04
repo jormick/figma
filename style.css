@@ -108,15 +108,7 @@ button:hover {
         text-align: center;
     }
 
-    .textContent{
-        margin-left: 0px;
-    }
-
     button{
         align-items: center;
-    }
-
-    .myPhoto{
-        margin-right: 0px;
     }
 }
