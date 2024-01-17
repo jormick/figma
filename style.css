@@ -2,6 +2,7 @@ main{
     display: flex;
     flex-direction: column;
     width: 100%;
+    align-items: center;
 }
 
 h4{
@@ -12,16 +13,16 @@ h4{
 .textContent{
     display: flex;
     flex-direction: column;
-    margin-left: 450px;
-    margin-top: 100px;
 }
 
 .intro{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
-body {
+* {
     font-family: Calibri, serif;
     box-sizing: border-box;
     padding: 0;
@@ -46,8 +47,6 @@ body {
     height: 350px;
     box-shadow: -7px 7px 2px #edf7fa;
     border-radius: 100%;
-    margin-right: 450px;
-    margin-top: 50px;
 }
 
 .klad {
@@ -55,33 +54,45 @@ body {
     display: inline-block;
 }
 
+.content{
+    max-width: 69vw;
+}
+
 .mainText {
     font-size: x-large;
 }
 
 .recentPosts {
+    display: flex;
+    flex-direction: column;
     background-color: #edf7fa;
     margin-top: 100px;
     border-width: 2px;
     border-style: solid;
     border-color: black;
     box-shadow: -2px 2px 2px grey;
-    padding: 50px 450px;
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    min-width: 100%;
 }
 
-.postTitle{
-
+.cards{
+    display: flex;
+    justify-content: center;
+    background-color: #ff8080;
+    gap: 30px;
 }
 
 .card {
-    display: inline-block;
-    height: 295px;
-    width: 418px;
+    display: flex;
     background-color: green;
     border-radius: 6px;
-    padding: 10px 10px;
-    min-width: 320px;
-    margin-right: 25px;
+    padding: 10px;
+    min-width: 100px;
+    width: 100%;
+    max-width: 30%;
+    flex-direction: column;
 }
 
 
@@ -133,5 +144,9 @@ button:hover {
     .recentPosts{
         align-items: center;
         padding: 0;
+    }
+
+    .cards{
+        flex-direction: column;
     }
 }
