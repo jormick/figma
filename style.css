@@ -3,11 +3,20 @@ main{
     flex-direction: column;
     width: 100%;
     align-items: center;
+    margin-top: 10vw;
 }
 
 h4{
     text-align: right;
     color: #00A8CC;
+}
+
+h2 {
+    font-size: xx-large;
+}
+
+.postDate{
+    font-size: x-large;
 }
 
 .textContent{
@@ -40,11 +49,12 @@ h4{
     color: #000;
     list-style: none;
     text-decoration: none;
+    font-size: large;
 }
 
 .myPhoto {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     box-shadow: -7px 7px 2px #edf7fa;
     border-radius: 100%;
 }
@@ -59,6 +69,7 @@ h4{
 }
 
 .mainText {
+    margin-top: 3vw;
     font-size: x-large;
 }
 
@@ -80,21 +91,23 @@ h4{
 .cards{
     display: flex;
     justify-content: center;
-    background-color: #ff8080;
     gap: 30px;
 }
 
 .card {
     display: flex;
-    background-color: green;
-    border-radius: 6px;
+    background-color: white;
+    border-radius: 4px;
     padding: 10px;
     min-width: 100px;
     width: 100%;
-    max-width: 30%;
     flex-direction: column;
+    min-height: 300px;
 }
 
+.postText{
+    font-size: x-large;
+}
 
 button {
     color: white;
@@ -104,7 +117,7 @@ button {
     border: 0;
     border-radius: 5px;
     width: 300px;
-    transition: background-color 0.4s ease-in-out;
+    margin-top: 3vw;
 }
 
 button:hover {
@@ -137,13 +150,15 @@ button:hover {
         align-items: center;
     }
 
-    .infoTable{
-        margin-left: auto;
+    .card{
+        margin: auto;
+        min-width: 100%;
     }
 
     .recentPosts{
         align-items: center;
         padding: 0;
+        border-style: none;
     }
 
     .cards{
