@@ -11,6 +11,12 @@ h4{
     color: #00A8CC;
 }
 
+h3{
+    text-align: center;
+    justify-content: center;
+    font-weight: normal;
+}
+
 h2 {
     font-size: xx-large;
 }
@@ -98,7 +104,7 @@ h2 {
     display: flex;
     background-color: white;
     border-radius: 4px;
-    padding: 10px;
+    padding: 20px;
     min-width: 100px;
     width: 100%;
     flex-direction: column;
@@ -126,19 +132,60 @@ button {
     justify-content: center;
     margin-top: 2vw;
     flex-direction: column;
-    min-width: 100%;
+    width: 100%;
+    margin-bottom: 8vw;
 }
 
-
+.featuredWorksSpace{
+    display: flex;
+    margin-top: 1vw;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .featuredPhoto{
     width: 246px;
     height: 184px;
     border-radius: 6px;
+    margin-right: 2vw;
 }
 
 .featuredWorksPanel{
     display: flex;
+    margin-top: 2vw;
+    padding-bottom: 2vw;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-bottom-color: #E0E0E0;
+    justify-content: center;
+}
+
+.featuredHeader{
+    color: #21243D;
+}
+
+.yearTag{
+    margin-top: 1vw;
+    display: flex;
+    gap: 2vw;
+    font-size: x-large;
+}
+
+.year{
+    text-align: center;
+    width: 62px;
+    background-color: #142850;
+    color: white;
+    border-radius: 16px;
+}
+
+.tag{
+    color: #8E9CAA;
+}
+
+.worksText{
+    margin-top: 1vw;
+    font-size: x-large;
 }
 
 button:hover {
@@ -147,6 +194,29 @@ button:hover {
     background-color: #ff8080;
     border: 0;
     border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vw;
+    min-width: 100%;
+}
+
+.footerImages{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerImage{
+    width: 30px;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    margin-bottom: 2vw;
 }
 
 @media(max-width: 1080px) {
