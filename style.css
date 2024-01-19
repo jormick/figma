@@ -120,6 +120,27 @@ button {
     margin-top: 3vw;
 }
 
+.featuredWorks{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2vw;
+    flex-direction: column;
+    min-width: 100%;
+}
+
+
+
+.featuredPhoto{
+    width: 246px;
+    height: 184px;
+    border-radius: 6px;
+}
+
+.featuredWorksPanel{
+    display: flex;
+}
+
 button:hover {
     color: white;
     font-size: xx-large;
